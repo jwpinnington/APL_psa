@@ -15,14 +15,42 @@ You have been asked to scope out the project and to consider different solution 
 
 ### What would your initial steps be?
 
+* Align solution within business and IT strategy
+
+    VMOST
+
+    | Initial | word      | Business/IT |
+    |---------|-----------|-------------|
+    | V       | Vision    |  BBBBB      |
+    | M       | Mission   |  BBBBB      |
+    | O       | Objective |  BBBB/T     |
+    | S       | Strategy  |  BBB/TT     |
+    | T       | Tactics   |  B/TTTT     |
+
+    The Scenario exists at the level of a Strategy, a messaging application, the objectives are unknown.
+
+
 ### What would you expect the key success criteria to be?
+\
+placeholdertext_nnnnnnnnnnnn
+
 ### What constraints and barriers might you face?
+\
+placeholdertext_nnnnnnnnnnnn
 
 ### At a high level, what architectural options might be relevant in this scenario?
+\
+placeholdertext_nnnnnnnnnnnn
 
 ### How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
+\
+placeholdertext_nnnnnnnnnnnn
 
 ### What project phases would you propose?
+\
+placeholdertext_nnnnnnnnnnnn
 
 ### What technologies would you consider and how would you narrow down to final recommendations? What factors would you consider and who would you involve in this? 
+\
+placeholdertext_nnnnnnnnnnnn
 
