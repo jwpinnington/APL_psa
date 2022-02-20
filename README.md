@@ -34,31 +34,31 @@ You have been asked to scope out the project and to consider different solution 
 
     The Scenario exists at the level of a strategy, a messaging application, and an objective which is to support operational dialogue with suppliers and customers.
 
-    Is the objective extant, or is it a new objective? The context would lead to an assumption of the objective being extant. Much as we wish to talk about the journey into the future we should [map the territory](#1) where we are.
+    Is the objective extant, or is it a new objective? The context would lead to an assumption of the objective being extant. Much as we wish to talk about the journey into the future we should [map the territory](#inputs_1) where we are.
 
     ~~*“I wouldn’t start from here if I were you.”*~~
 
-    The [strategy](#2) is a change state to the objective, strategy is the vector to the objective's scalar. Here we begin to [map a territory](#2) that does not yet exist.
+    The [strategy](#inputs_2) is a change state to the objective, strategy is the vector to the objective's scalar. Here we begin to [map a territory](#inputs_2) that does not yet exist.
 
-    The [tactics](#3) are the means by which which areas of our map of the territory to be built are sketched out.
+    The [tactics](#inputs_3) are the means by which which areas of our map of the territory to be built are sketched out.
 
     
 * Solution architecture inputs.
 
-    #### 1 .
+    #### inputs_1 .
     Background documentation: Model the existing actors that suport the objective; people, processes and technologies.
     
-    #### 2 .
+    #### unputs_2 .
     Solution vision document: this is a fleshing out of the given strategy.
-    #### 3 .
+    #### inputs_3 .
     Business requirements catalogue:
     User stories
 
-    #### 4 .
+    #### inputs_4 .
 
     Taxonomy
 
-    #### 5 . 
+    #### inputs_5 . 
 
     Risk register
 
@@ -129,13 +129,13 @@ For the product management stream of the project:
 * Requirements
 * Product / Feature backlog
 * Sprint loop 
-    1. Sprint plan
-    2. Design and build
-    3. UAT
-    4. UAT bug fix / snagging
-    5. Release
-    6. Retrospective - leasons learned
-    7. GOTO 1. Sprint plan
+    * Sprint plan
+    * Design and build
+    * UAT
+    * UAT bug fix / snagging
+    * Release
+    * Retrospective - leasons learned
+    * GOTO - Sprint plan
 
 \
 The phases of the two streams align somewhat as per the image below:
