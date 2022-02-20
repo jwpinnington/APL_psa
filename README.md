@@ -121,7 +121,7 @@ Security, Audit, Capcity, Performance, Availability, Recoverability, Robustness,
 For the solution architecture stream of the project: 
 * Initiation 
 * Discovery
-    * [Architecture Inputs](#solution_architecture_inputs)
+    * [Architecture Inputs](#solution-architecture-inputs)
     * [Stakeholder engagement](#inputs_3)
     * [Business requirements](#inputs_4)
 * Solution Outline
