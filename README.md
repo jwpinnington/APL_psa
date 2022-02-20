@@ -1,78 +1,78 @@
 # APL_psa
 
 
-## Context:
+# Context:
 
 Our client runs a high volume B2B trading operation with large suppliers and business customers. We have provided a trading platform and other solutions for our client since 2016 (having provided solutions for other clients since 2007). 
 
 
 
-## Scenario:
+# Scenario:
 
 We have been asked to build a messaging application for use by our client to support operational dialogue with their suppliers and customers.
 
 You have been asked to scope out the project and to consider different solution options. You have direct access to both the business client and technical teams.
 
-### What would your initial steps be?
+## What would your initial steps be?
 
-* More context
+### More context
 
-    Capabilities of the provider
+Capabilities of the provider
 
 
-* Align solution within business and IT strategy
+### Align solution within business and IT strategy
 
-    VMOST
+VMOST
 
-    | Initial | word      | Business/IT |
-    |---------|-----------|-------------|
-    | V       | Vision    |  BBBBB      |
-    | M       | Mission   |  BBBBB      |
-    | O       | Objective |  BBBB/T     |
-    | S       | [Strategy](#2)  |  BBB/TT     |
-    | T       | [Tactics](#3)   |  B/TTTT     |
+| Initial | word      | Business/IT |
+|---------|-----------|-------------|
+| V       | Vision    |  BBBBB      |
+| M       | Mission   |  BBBBB      |
+| O       | Objective |  BBBB/T     |
+| S       | [Strategy](#inputs_2)  |  BBB/TT     |
+| T       | [Tactics](#inputs_3)   |  B/TTTT     |
 
-    The Scenario exists at the level of a strategy, a messaging application, and an objective which is to support operational dialogue with suppliers and customers.
+The Scenario exists at the level of a strategy, a messaging application, and an objective which is to support operational dialogue with suppliers and customers.
 
-    Is the objective extant, or is it a new objective? The context would lead to an assumption of the objective being extant. Much as we wish to talk about the journey into the future we should [map the territory](#inputs_1) where we are.
+Is the objective extant, or is it a new objective? The context would lead to an assumption of the objective being extant. Much as we wish to talk about the journey into the future we should [map the territory](#inputs_1) where we are.
 
-    ~~*“I wouldn’t start from here if I were you.”*~~
+~~*“I wouldn’t start from here if I were you.”*~~
 
-    The [strategy](#inputs_2) is a change state to the objective, strategy is the vector to the objective's scalar. Here we begin to [map a territory](#inputs_2) that does not yet exist.
+The [strategy](#inputs_2) is a change state to the objective, strategy is the vector to the objective's scalar. Here we begin to [map a territory](#inputs_2) that does not yet exist.
 
-    The [tactics](#inputs_3) are the means by which which areas of our map of the territory to be built are sketched out.
+The [tactics](#inputs_3) are the means by which which areas of our map of the territory to be built are sketched out.
 
     
-* Solution architecture inputs.
+### Solution architecture inputs.
 
-    #### inputs_1 .
-    Background documentation: Model the existing actors that suport the objective; people, processes and technologies.
+#### inputs_1
+Background documentation: Model the existing actors that suport the objective; people, processes and technologies.
     
-    #### unputs_2 .
-    Solution vision document: this is a fleshing out of the given strategy.
-    #### inputs_3 .
-    Business requirements catalogue:
-    User stories
+#### inputs_2
+Solution vision document: this is a fleshing out of the given strategy.
+#### inputs_3
+Business requirements catalogue:
+User stories
 
-    #### inputs_4 .
+#### inputs_4
 
-    Taxonomy
+Taxonomy
 
-    #### inputs_5 . 
+#### inputs_5 
 
-    Risk register
+Risk register
 
 
-* Product Design
+### Product Design
 
-* Gap analysis
+### Gap analysis
 
-### What would you expect the key success criteria to be?
+## What would you expect the key success criteria to be?
 
 triple constraint fast/cheap/good of the project, separate from fast/cheap/good of the objectives driving the solution.
 
 
-### What constraints and barriers might you face?
+## What constraints and barriers might you face?
 
 Provider 
 
@@ -99,11 +99,11 @@ International clients, Internationalization
 
 
 
-### At a high level, what architectural options might be relevant in this scenario?
+## At a high level, what architectural options might be relevant in this scenario?
 \
 placeholdertext_nnnnnnnnnnnn
 
-### How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
+## How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 
@@ -112,7 +112,7 @@ Non-Functional Requirements
 Security, Audit, Capcity, Performance, Availability, Recoverability, Robustness, Integrity, Maintainability, Usability, Documentation
 
 
-### What project phases would you propose?
+## What project phases would you propose?
 
 For the solution architecture stream of the project: 
 * Initiation 
@@ -143,7 +143,7 @@ The phases of the two streams align somewhat as per the image below:
 \
  ![Screenshot1](./media/project_phases.png)
 
-### What technologies would you consider and how would you narrow down to final recommendations? What factors would you consider and who would you involve in this? 
+## What technologies would you consider and how would you narrow down to final recommendations? What factors would you consider and who would you involve in this? 
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 Who - primarily APL staff, client tech' staff (IT managers, Ops staff)
