@@ -30,7 +30,7 @@ VMOST
 | M       | Mission   |  BBBBB      |
 | O       | Objective |  BBBB/T     |
 | S       | [Strategy](#inputs_2)  |  BBB/TT     |
-| T       | [Tactics](#inputs_3)   |  B/TTTT     |
+| T       | [Tactics](#inputs_4)   |  B/TTTT     |
 
 The Scenario exists at the level of a strategy, a messaging application, and an objective which is to support operational dialogue with suppliers and customers.
 
@@ -40,25 +40,29 @@ Is the objective extant, or is it a new objective? The context would lead to an 
 
 The [strategy](#inputs_2) is a change state to the objective, strategy is the vector to the objective's scalar. Here we begin to [map a territory](#inputs_2) that does not yet exist.
 
-The [tactics](#inputs_3) are the means by which which areas of our map of the territory to be built are sketched out.
+The [tactics](#inputs_4) are the means by which which areas of our map of the territory to be built are sketched out.
 
     
-### Solution architecture inputs.
+### Solution architecture inputs
 
 #### inputs_1
 Background documentation: Model the existing actors that suport the objective; people, processes and technologies.
     
 #### inputs_2
 Solution vision document: this is a fleshing out of the given strategy.
+
 #### inputs_3
+Stakeholder engagement
+
+#### inputs_4
 Business requirements catalogue:
 User stories
 
-#### inputs_4
+#### inputs_5
 
 Taxonomy
 
-#### inputs_5 
+#### inputs_6 
 
 Risk register
 
@@ -117,6 +121,9 @@ Security, Audit, Capcity, Performance, Availability, Recoverability, Robustness,
 For the solution architecture stream of the project: 
 * Initiation 
 * Discovery
+    * [Architecture Inputs](#solution_architecture_inputs)
+    * [Stakeholder engagement](#inputs_3)
+    * [Business requirements](#inputs_4)
 * Solution Outline
 * Analysis
 * Logical Design
@@ -126,7 +133,7 @@ For the solution architecture stream of the project:
 
 For the product management stream of the project:
 * Discovery
-* Requirements
+* [Requirements](#inputs_4)
 * Product / Feature backlog
 * Sprint loop 
     * Sprint plan
