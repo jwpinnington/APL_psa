@@ -1,5 +1,9 @@
-# APL_psa
 
+# Intro
+
+## The Map is Not the Territory
+
+https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation
 
 # Context:
 
@@ -17,11 +21,13 @@ You have been asked to scope out the project and to consider different solution 
 
 ### More context
 
-Capabilities of the provider
+Capabilities of the provider,
 
 
-### Align solution within business and IT strategy
 
+
+### Align solution within business and IT strategy of the client
+\
 VMOST
 
 | Initial | word      | Business/IT |
@@ -46,7 +52,7 @@ The [tactics](#inputs_4) are the means by which which areas of our map of the te
 ### Solution architecture inputs
 
 #### inputs_1
-Background documentation: Model the existing actors that suport the objective; people, processes and technologies.
+Background documentation: Model the existing actors that suport the objective; people, processes and technologies. From this we can begin to determine the [stakeholders](#inputs_3)
     
 #### inputs_2
 Solution vision document: this is a fleshing out of the given strategy.
@@ -73,7 +79,19 @@ Risk register
 
 ## What would you expect the key success criteria to be?
 
-triple constraint fast/cheap/good of the project, separate from fast/cheap/good of the objectives driving the solution.
+The key success criteria of the solution would be the number of business requirements met.
+The more business requirements met the higher the quality of the solution.
+
+Of course the project as a process separate from the solution will have other basic success criteria beyond the scope ( business requirements ); is it on time and on budget.
+The project could fail on time, on budget, or both, and the solution be a resounding success.
+
+It is somewhat fuzzy. 
+
+On a product view from the developement team success criteria may be stripped down to hard metrics. The API handler can accept ten times the requests per second than the previous version, 
+this is a success, and clearly adds to the capabilities of the product, but may be incidental to the solution and the project.
+
+
+~~triple constraint fast/cheap/good of the project, separate from fast/cheap/good of the objectives driving the solution.~~
 
 
 ## What constraints and barriers might you face?
@@ -104,8 +122,18 @@ International clients, Internationalization
 
 
 ## At a high level, what architectural options might be relevant in this scenario?
+
 \
-placeholdertext_nnnnnnnnnnnn
+Putting the scenario to one side for the moment; in a pure consulting role a solution architect may through discovery conclude that an option to achieve the client's business objective is not to build a messaging application, but to realign the client's particular procedures, personel roles and responsibilites to achieve the objective.
+
+Options pertaining to the building of the messaging application:
+* Utilise capabilities of existing application portfolio.
+    * Upgrade / extend / configure existing application ( used by client ) with new functionality.
+    * Create new application utilising modular components of provider's application portfolio.
+* Create entirely new application ( which can be added to the application portfolio).
+    * N-tier - this is on the territory
+    * Micro-services - this is on the map
+
 
 ## How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
 
@@ -133,7 +161,7 @@ For the solution architecture stream of the project:
 
 For the product management stream of the project:
 * Discovery
-* [Requirements](#inputs_4)
+* [Requirements](#inputs_4) / User Stories
 * Product / Feature backlog
 * Sprint loop 
     * Sprint plan
