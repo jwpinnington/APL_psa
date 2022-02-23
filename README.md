@@ -91,12 +91,16 @@ On a product view from the developement team success criteria may be stripped do
 this is a success, and clearly adds to the capabilities of the product, but may be incidental to the solution and the project.
 
 
-~~triple constraint fast/cheap/good of the project, separate from fast/cheap/good of the objectives driving the solution.~~
+~~*triple constraint fast/cheap/good of the project, separate from fast/cheap/good of the objectives driving the solution. Choose two.*~~
 
 
 ## What constraints and barriers might you face?
 
-Provider 
+Contraints may exist on both the client and provider side of the solution project.
+
+* Time
+* Budget
+* Resources - human and material
 
 Nomenclature
 
@@ -111,7 +115,7 @@ Capabilities
 
 Government / Compliance / Standards
 
-regulatory requirements, the bribery and corruption act, data privacy, data residency.
+* Regulatory requirements, the bribery and corruption act, data privacy, data residency.
 
 WCAG - ARIA
 
