@@ -19,10 +19,12 @@ You have been asked to scope out the project and to consider different solution 
 
 ## What would your initial steps be?
 
-### More context
+### More context - First "know thyself"
 
-Capabilities of the provider,
+Capabilities of the provider. 
+It may seem obvious, but it is worth stating for the record that unlike a pure consulting role as solution architect where a solution may utilise methods and services from a potential array of technologies and providers, there is an implicit bias toward those of the provider. Nothing untoward about this, one must pay the rent.
 
+As such the solution architect must understand the territory from which they come and which they represent. First order of business for the solution architect is to map out the territory of the provider, perform the process of discovery on the business one is in before going out to the client.
 
 
 
@@ -106,7 +108,11 @@ Contraints to the solution.
 * Discovery stage - Input
     * Barriers to communication
         * Nomenclature
-        * Access to stakeholders
+        * Access to stakeholders - 
+        are full range of stakeholders in the room, have the end users, those at the coal face who would be using the product, been invited? *If you are not in the room, you are not in the deal.* Is the real client business sponsor in the room, or is it a proxy? Good to have an idea of which.
+        * ~~Scope - Mission creep - an inverse constraint~~
+
+
     * Business policies - these should be rolled into the business requirements / user stories, but may not be explict, and could even be counter to a business requirement for the solution, e.g.
             
             Business policies: 'For staff work/life balance we have a rule of no emails after 6pm'. How does this apply to the messaging app, and how does this effect the usage and benefit of the app for the clients B2B partners?
@@ -120,10 +126,6 @@ Contraints to the solution.
 * Technical contraints to the product
     * Capabilites - does the provider have the technical capability to build product elements of the solution.
     * [Technology](#Technology)
-
-
-
-
 
 
 ## At a high level, what architectural options might be relevant in this scenario?
@@ -142,6 +144,7 @@ Options pertaining to the building of the messaging application:
 
 ## How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
 
+In the abstract the technology stack of client and provider ought not to impact the solution, but of course in reality it shall. The impact ....
 ### Technology
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
