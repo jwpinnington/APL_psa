@@ -102,26 +102,27 @@ Contraints may exist on both the client and provider side of the solution projec
 * Budget
 * Resources - human and material
 
-Nomenclature
+Contraints to the solution.
+* Discovery stage - Input
+    * Barriers to communication
+        * Nomenclature
+        * Access to stakeholders
+    * Business policies - these should be rolled into the business requirements / user stories, but may not be explict, and could even be counter to a business requirement for the solution, e.g.
+            
+            Business policies: 'For staff work/life balance we have a rule of no emails after 6pm'. How does this apply to the messaging app, and how does this effect the usage and benefit of the app for the clients B2B partners?
+    * Governance - Regulatory requirements
+        * Data privacy, data residency
+        * Other regulations pertaining to the market in which the B2B partners operate and may effect the content of the messaging
+        * Best practice - standards on the product side
+            * Accessibility - WCAG - ARIA
+            * Internationalization - this is more of a business requirement if international clients.
 
-Time, access, barriers to communication, methods of communication. 
-
-Client 
-
-Funding / Resources
-
-Capabilities
+* Technical contraints to the product
+    * Capabilites - does the provider have the technical capability to build product elements of the solution.
+    * [Technology](#Technology)
 
 
-Government / Compliance / Standards
 
-* Regulatory requirements, the bribery and corruption act, data privacy, data residency.
-
-WCAG - ARIA
-
-
-Business policies: *'no emails after 6pm'*
-International clients, Internationalization
 
 
 
@@ -140,6 +141,8 @@ Options pertaining to the building of the messaging application:
 
 
 ## How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
+
+### Technology
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 
