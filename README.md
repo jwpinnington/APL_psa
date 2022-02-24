@@ -51,25 +51,23 @@ The [tactics](#inputs_4) are the means by which which areas of our map of the te
     
 ### Solution architecture inputs
 
-#### inputs_1
+#### <a name="inputs_1">
 Background documentation: Model the existing actors that suport the objective; people, processes and technologies. From this we can begin to determine the [stakeholders](#inputs_3)
     
-#### inputs_2
+#### <a name="inputs_2">
 Solution vision document: this is a fleshing out of the given strategy.
 
-#### inputs_3
+#### <a name="inputs_3"> 
 Stakeholder engagement
 
-#### inputs_4
+#### <a name="inputs_4">
 Business requirements catalogue:
 User stories
 
-#### inputs_5
-
+#### <a name="inputs_5">
 Taxonomy
 
-#### inputs_6 
-
+#### <a name="inputs_6">
 Risk register
 
 
@@ -134,8 +132,8 @@ Contraints to the solution.
 \
 Putting the scenario to one side for the moment; in a pure consulting role a solution architect may through discovery conclude that an option to achieve the client's business objective is not to build a messaging application, but to realign the client's particular procedures, personel roles and responsibilites to achieve the objective.
 
-#### Options pertaining to the building of the messaging application:
-* #### Utilise capabilities of existing application portfolio
+Options pertaining to the building of the messaging application:
+* #### <a name="options2">Utilise capabilities of existing application portfolio
     * Upgrade / extend / configure existing application ( used by client ) with new functionality.
     * Create new application utilising modular components of provider's application portfolio.
 * Create entirely new application ( which can be added to the application portfolio).
@@ -146,9 +144,8 @@ Putting the scenario to one side for the moment; in a pure consulting role a sol
 ## How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
 
 The implicit impact on the design would be a preference for the providers existing systems.
-[xx](#options_pertaining_to_the_building_of_the_messaging_application)
 
-[yy](#utilise_capabilities_of_existing_application_portfolio)
+[yy](#options2)
 
 ### Technology
 
