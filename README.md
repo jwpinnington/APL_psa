@@ -24,9 +24,7 @@ You have been asked to scope out the project and to consider different solution 
 Capabilities of the provider. 
 It may seem obvious, but it is worth stating for the record that unlike a pure consulting role as solution architect where a solution may utilise methods and services from a potential array of technologies and providers, there is an implicit bias toward those of the provider. Nothing untoward about this, one must pay the rent.
 
-As such the solution architect must understand the territory from which they come and which they represent. First order of business for the solution architect is to map out the territory of the provider, perform the process of discovery on the business one is in before going out to the client.
-
-
+As such the solution architect must understand the territory from which they come and which they represent. First order of business for the solution architect is to map out the territory of the provider, perform the process of discovery on the business one is part of before going out to the client.
 
 ### Align solution within business and IT strategy of the client
 \
@@ -89,8 +87,9 @@ The project could fail on time, on budget, or both, and the solution be a resoun
 
 It is somewhat fuzzy. 
 
-On a product view from the developement team success criteria may be stripped down to hard metrics. The API handler can accept ten times the requests per second than the previous version, 
-this is a success, and clearly adds to the capabilities of the product, but may be incidental to the solution and the project.
+On a product view from the developement team success criteria may be stripped down to hard metrics, e.g.
+
+     The API handler can accept ten times the requests per second than the previous version. This is a success, and clearly adds to the capabilities of the product, but may be incidental to the solution and the project.
 
 
 ~~*triple constraint fast/cheap/good of the project, separate from fast/cheap/good of the objectives driving the solution. Choose two.*~~
@@ -108,10 +107,9 @@ Contraints to the solution.
 * Discovery stage - Input
     * Barriers to communication
         * Nomenclature
-        * Access to stakeholders - 
-        are full range of stakeholders in the room, have the end users, those at the coal face who would be using the product, been invited? *If you are not in the room, you are not in the deal.* Is the real client business sponsor in the room, or is it a proxy? Good to have an idea of which.
+        * [Access to stakeholders](#inputs_3) - 
+        are full range of stakeholders in the room, have the end users, those at the coal face who would be using the product, been invited? *If you are not in the room, you are not in the deal.* ~~Is the real client business sponsor in the room, or is it a proxy? Good to have an idea of which.~~
         * ~~Scope - Mission creep - an inverse constraint~~
-
 
     * Business policies - these should be rolled into the business requirements / user stories, but may not be explict, and could even be counter to a business requirement for the solution, e.g.
             
@@ -124,8 +122,11 @@ Contraints to the solution.
             * Internationalization - this is more of a business requirement if international clients.
 
 * Technical contraints to the product
-    * Capabilites - does the provider have the technical capability to build product elements of the solution.
+    * Capabilites
+        * Does the provider have the technical capability to build product elements of the solution?
+        * Do the end users of the client and it's B2B partners have the abilities to self-manage the product? The product should of course be simple to use. In the case of a human to human messaging app is there a requirement to manage enrolement and permissions governed by business rules? If so can the product be designed for self-service by business 'super users', and the solution be delivered with a 'train the trainers' approach for operational support? 
     * [Technology](#Technology)
+
 
 
 ## At a high level, what architectural options might be relevant in this scenario?
@@ -133,8 +134,8 @@ Contraints to the solution.
 \
 Putting the scenario to one side for the moment; in a pure consulting role a solution architect may through discovery conclude that an option to achieve the client's business objective is not to build a messaging application, but to realign the client's particular procedures, personel roles and responsibilites to achieve the objective.
 
-Options pertaining to the building of the messaging application:
-* Utilise capabilities of existing application portfolio.
+#### Options pertaining to the building of the messaging application:
+* #### Utilise capabilities of existing application portfolio
     * Upgrade / extend / configure existing application ( used by client ) with new functionality.
     * Create new application utilising modular components of provider's application portfolio.
 * Create entirely new application ( which can be added to the application portfolio).
@@ -144,7 +145,11 @@ Options pertaining to the building of the messaging application:
 
 ## How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
 
-In the abstract the technology stack of client and provider ought not to impact the solution, but of course in reality it shall. The impact ....
+The implicit impact on the design would be a preference for the providers existing systems.
+[xx](#options_pertaining_to_the_building_of_the_messaging_application)
+
+[yy](#utilise_capabilities_of_existing_application_portfolio)
+
 ### Technology
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
