@@ -70,7 +70,6 @@ Taxonomy
 #### <a name="inputs_6">
 Risk register
 
-
 ### Product Design
 
 ### Gap analysis
@@ -143,17 +142,20 @@ Options pertaining to the building of the messaging application:
 
 ## How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
 
-The implicit impact on the design would be a preference for the providers existing systems.
+There is a commerical logic to seek to align the solution within the business and IT strategy of the both the client and the provider. As such the implicit impact on the design would be to build upon the [reliance on existing systems](#options2) of the provider. 
 
-[yy](#options2)
+The providers SaaS model lowers the technolgy risk of the solution for the client. It also lowers the risk of the solution to the provider as the responsibility of the [non-functional requirements](#technologyNFR) lies solely with the provider and it's suppliers. Site reliabiltiy engineering has simple lines of control.
+
+..The client's B2B environment 
+
 
 ### Technology
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 
-Non-Functional Requirements
+<a name="technologyNFR">Non-Functional Requirements
 
-Security, Audit, Capcity, Performance, Availability, Recoverability, Robustness, Integrity, Maintainability, Usability, Documentation
+Security, Audit, Capcity, Performance, Availability, Recoverability, Robustness, Integrity, Maintainability
 
 
 ## What project phases would you propose?
