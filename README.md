@@ -22,7 +22,7 @@ You have been asked to scope out the project and to consider different solution 
 ### More context - First "know thyself"
 
 Capabilities of the provider. 
-It may seem obvious, but it is worth stating for the record that unlike a pure consulting role as solution architect where a solution may utilise methods and services from a potential array of technologies and providers, there is an implicit bias toward those of the provider. Nothing untoward about this, one must pay the rent.
+It may seem obvious, but it is worth stating for the record that unlike a pure consulting role as solution architect where a solution may utilise methods and services from a potential array of technologies and providers, there is an [implicit bias toward those of the provider](#impact). Nothing untoward about this, one must pay the rent.
 
 As such the solution architect must understand the territory from which they come and which they represent. First order of business for the solution architect is to map out the territory of the provider, perform the process of discovery on the business one is part of before going out to the client.
 
@@ -52,7 +52,9 @@ The [tactics](#inputs_4) are the means by which which areas of our map of the te
 ### Solution architecture inputs
 
 #### <a name="inputs_1">
-Background documentation: Model the existing actors that suport the objective; people, processes and technologies. From this we can begin to determine the [stakeholders](#inputs_3)
+Background documentation: Model the existing actors that suport the objective; people, processes and technologies. From this we can begin to determine the [stakeholders](#inputs_3), actors ( process and technologies ). The goals of the objective. SMART: Specific, Measurable, Action-oriented, Realistic and Timely.
+
+'Adzic, Gojko. Impact Mapping: Making a big impact with software products and projects . Provoking Thoughts.' 
     
 #### <a name="inputs_2">
 Solution vision document: this is a fleshing out of the given strategy.
@@ -62,7 +64,7 @@ Stakeholder engagement
 
 #### <a name="inputs_4">
 Business requirements catalogue:
-User stories
+User - Actor stories
 
 #### <a name="inputs_5">
 Taxonomy
@@ -108,7 +110,7 @@ Contraints to the solution.
         are full range of stakeholders in the room, have the end users, those at the coal face who would be using the product, been invited? *If you are not in the room, you are not in the deal.* ~~Is the real client business sponsor in the room, or is it a proxy? Good to have an idea of which.~~
         * ~~Scope - Mission creep - an inverse constraint~~
 
-    * Business policies - these should be rolled into the business requirements / user stories, but may not be explict, and could even be counter to a business requirement for the solution, e.g.
+    * Business policies - these should be rolled into the business requirements / user - actor stories, but may not be explict, and could even be counter to a business requirement for the solution, e.g.
             
             Business policies: 'For staff work/life balance we have a rule of no emails after 6pm'. How does this apply to the messaging app, and how does this effect the usage and benefit of the app for the clients B2B partners?
     * Governance - Regulatory requirements
@@ -140,11 +142,11 @@ Options pertaining to the building of the messaging application:
     * Micro-services - this is on the map
 
 
-## How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
+## <a name="impact"> How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
 
 There is a commerical logic to seek to align the solution within the business and IT strategy of the both the client and the provider. As such the implicit impact on the design would be to build upon the [reliance on existing systems](#options2) of the provider. 
 
-The providers SaaS model lowers the technolgy risk of the solution for the client. It also lowers the risk of the solution to the provider as the responsibility of the [non-functional requirements](#technologyNFR) lies solely with the provider and it's suppliers. Site reliabiltiy engineering has simple lines of control.
+The providers SaaS model lowers the technolgy risk of the solution for the client. It also ought lower the risk of the solution to the provider as the responsibility of the [non-functional requirements](#technologyNFR) lies solely with the provider and it's suppliers. Site reliabiltiy engineering has simple lines of control.
 
 ..The client's B2B environment 
 
@@ -153,9 +155,16 @@ The providers SaaS model lowers the technolgy risk of the solution for the clien
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 
-<a name="technologyNFR">Non-Functional Requirements
-
-Security, Audit, Capcity, Performance, Availability, Recoverability, Robustness, Integrity, Maintainability
+### <a name="technologyNFR">Non-Functional Requirements
+* Security
+* Audit
+* Capcity
+* Performance
+* Availability
+* Recoverability
+* Robustness
+* Integrity
+* Maintainability
 
 
 ## What project phases would you propose?
@@ -175,7 +184,7 @@ For the solution architecture stream of the project:
 
 For the product management stream of the project:
 * Discovery
-* [Requirements](#inputs_4) / User Stories
+* [Requirements](#inputs_4) / User - Actor Stories
 * Product / Feature backlog
 * Sprint loop 
     * Sprint plan
