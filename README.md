@@ -19,6 +19,11 @@ You have been asked to scope out the project and to consider different solution 
 
 ## What would your initial steps be?
 
+\
+ ![Screenshot1](./media/coiled_spring.png)
+
+Uncoiling a spring.
+
 ### More context - First "know thyself"
 
 Capabilities of the provider. 
@@ -27,8 +32,7 @@ It may seem obvious, but it is worth stating for the record that unlike a pure c
 As such the solution architect must understand the territory from which they come and which they represent. First order of business for the solution architect is to map out the territory of the provider, perform the process of discovery on the business one is part of before going out to the client.
 
 ### Align solution within business and IT strategy of the client
-\
-VMOST
+
 
 | Initial | word      | Business/IT |
 |---------|-----------|-------------|
@@ -54,7 +58,7 @@ The [tactics](#inputs_4) are the means by which which areas of our map of the te
 #### <a name="inputs_1">
 Background documentation: Model the existing actors that suport the objective; people, processes and technologies. From this we can begin to determine the [stakeholders](#inputs_3), actors ( process and technologies ). The goals of the objective. SMART: Specific, Measurable, Action-oriented, Realistic and Timely.
 
-'Adzic, Gojko. Impact Mapping: Making a big impact with software products and projects . Provoking Thoughts.' 
+*'Adzic, Gojko. Impact Mapping: Making a big impact with software products and projects . Provoking Thoughts.'* 
     
 #### <a name="inputs_2">
 Solution vision document: this is a fleshing out of the given strategy.
@@ -199,7 +203,7 @@ For the product management stream of the project:
 The phases of the two streams align somewhat as per the image below:
 
 \
- ![Screenshot1](./media/project_phases.png)
+ ![Screenshot2](./media/project_phases.png)
 
 ## What technologies would you consider and how would you narrow down to final recommendations? What factors would you consider and who would you involve in this? 
 
