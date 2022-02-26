@@ -100,6 +100,8 @@ Risk register
 
 ### Product Design
 
+
+
 ## 2. What would you expect the key success criteria to be?
 
 The key success criteria of the solution would be the number of business requirements met.
@@ -148,7 +150,7 @@ Contraints to the solution.
     * Capabilites
         * Does the provider have the technical capability to build product elements of the solution?
         * Do the end users of the client and it's B2B partners have the abilities to self-manage the product? The product should of course be simple to use. In the case of a human to human messaging app is there a requirement to manage enrolement and permissions governed by business rules? If so can the product be designed for self-service by business 'super users', and the solution be delivered with a 'train the trainers' approach for operational support? 
-    * [Technology](#Technology)
+    * [Technology](#technology)
 
 
 
@@ -172,13 +174,6 @@ There is a commerical logic to seek to align the solution within the business an
 
 The providers SaaS model lowers the technolgy risk of the solution for the client. It also ought lower the risk of the solution to the provider as the responsibility of the [non-functional requirements](#technologyNFR) lies solely with the provider and it's suppliers. Site reliabiltiy engineering has simple lines of control.
 
-..The client's B2B environment 
-
-
-### Technology
-
-Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
-
 ### <a name="technologyNFR">Non-Functional Requirements
 * Security
 * Audit
@@ -189,6 +184,12 @@ Host environment - client device (OS, browsers\[webOS]\), and platform/server ab
 * Robustness
 * Integrity
 * Maintainability
+
+### <a name="technology">The client's B2B environment
+
+Host environment 
+* client device (OS, browsers\[webOS]\) minimum versions for which the web app is built ( does the provider take active metrics of this )
+* platform/server ability to run solution code base - middleware
 
 
 ## 6. What project phases would you propose?
@@ -226,6 +227,8 @@ The phases of the two streams align somewhat as per the image below:
  ![Screenshot2](./media/project_phases.png)
 
 ## 7. What technologies would you consider and how would you narrow down to final recommendations? What factors would you consider and who would you involve in this? 
+
+
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 Who - primarily APL staff, client tech' staff (IT managers, Ops staff)

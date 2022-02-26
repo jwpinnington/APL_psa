@@ -1,0 +1,91 @@
+openapi: 3.0.1
+info:
+  title: API
+  description: API definitions for stock
+  # termsOfService: http://swagger.io/terms/
+  # contact:
+  #   email: apiteam@swagger.io
+  # license:
+  #  name: Apache 2.0
+  #  url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+#externalDocs:
+#  description: Find out more about Swagger
+#  url: http://swagger.io
+servers:
+- url: /API/v1.0/
+- url: /API/v1.0/
+tags:
+- name: stock/createtrigger
+  description: "  "
+#  externalDocs:
+#    description: Find out more
+#    url: http://swagger.io
+#   https://roger13.github.io/SwagDefGen/  JSON mock to generate Swagger definition objects.
+paths:
+  /stock/createtrigger:
+    post:
+      tags:
+      - stock/createtrigger
+      summary: Create stock level trigger
+      requestBody:
+        description: Customer to be messaged for stock level change in direction over value for stock item for supplier name
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateTrigger'
+        required: true
+      responses:
+        204:
+          description: No Content
+          content: {}
+components:
+  schemas:
+    CreateTrigger:
+      required:
+      - customerid
+      - supplierid
+      - stockid
+      - unit
+      - level
+      - change
+      type: object
+      properties:
+        customerid:
+          type: string
+          example: dcb687ea-616b-e511-9090-00155d196c06
+        customer_name:
+          type: string
+          example: Main Hotel Group
+        supplierid:
+          type: string
+          example: c11187ea-616b-e511-9090-00155d196c06
+        supplier_name:
+          type: string
+          example: Main Supplier Group
+        stockid:
+          type: string
+          example: a299e7ea-516b-e533-1020-02155d196c06
+        stock_name:
+          type: string
+          example: potato
+        unit:
+          type: string
+          example: kilos
+        level:
+          type: string
+          example: 1000
+        change:
+          type: string
+          example: less than
+    ApiResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+        type:
+          type: string
+        message:
+          type: string
+
