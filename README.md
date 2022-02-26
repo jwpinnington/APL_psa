@@ -17,7 +17,7 @@ We have been asked to build a messaging application for use by our client to sup
 
 You have been asked to scope out the project and to consider different solution options. You have direct access to both the business client and technical teams.
 
-## What would your initial steps be?
+## 1. What would your initial steps be?
 
 \
  ![Screenshot1](./media/coiled_spring.png)
@@ -80,7 +80,7 @@ Risk register
 
 ### Gap analysis
 
-## What would you expect the key success criteria to be?
+## 2. What would you expect the key success criteria to be?
 
 The key success criteria of the solution would be the number of business requirements met.
 The more business requirements met the higher the quality of the solution.
@@ -98,7 +98,7 @@ On a product view from the developement team success criteria may be stripped do
 ~~*triple constraint fast/cheap/good of the project, separate from fast/cheap/good of the objectives driving the solution. Choose two.*~~
 
 
-## What constraints and barriers might you face?
+## 3. What constraints and barriers might you face?
 
 Contraints may exist on both the client and provider side of the solution project.
 
@@ -132,7 +132,7 @@ Contraints to the solution.
 
 
 
-## At a high level, what architectural options might be relevant in this scenario?
+## 4. At a high level, what architectural options might be relevant in this scenario?
 
 \
 Putting the scenario to one side for the moment; in a pure consulting role a solution architect may through discovery conclude that an option to achieve the client's business objective is not to build a messaging application, but to realign the client's particular procedures, personel roles and responsibilites to achieve the objective.
@@ -146,7 +146,7 @@ Options pertaining to the building of the messaging application:
     * Micro-services - this is on the map
 
 
-## <a name="impact"> How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
+## 5. <a name="impact"> How might our client’s B2B environment and reliance on our existing systems impact on your recommendations?
 
 There is a commerical logic to seek to align the solution within the business and IT strategy of the both the client and the provider. As such the implicit impact on the design would be to build upon the [reliance on existing systems](#options2) of the provider. 
 
@@ -155,7 +155,7 @@ The providers SaaS model lowers the technolgy risk of the solution for the clien
 ..The client's B2B environment 
 
 
-### Technology
+### 6. Technology
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 
@@ -171,7 +171,7 @@ Host environment - client device (OS, browsers\[webOS]\), and platform/server ab
 * Maintainability
 
 
-## What project phases would you propose?
+## 7. What project phases would you propose?
 
 For the solution architecture stream of the project: 
 * Initiation 
