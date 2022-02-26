@@ -99,7 +99,9 @@ Risk register
 ### Gap analysis
 
 ### Product Design
-
+ 
+ [API schema](./openAPI_swagger_files/stock.yaml)
+ 
 
 
 ## 2. What would you expect the key success criteria to be?
