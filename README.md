@@ -19,11 +19,6 @@ You have been asked to scope out the project and to consider different solution 
 
 ## 1. What would your initial steps be?
 
-\
- ![Screenshot1](./media/coiled_spring.png)
-
-Uncoiling a spring.
-
 ### More context - First "know thyself"
 
 Capabilities of the provider. 
@@ -33,6 +28,10 @@ As such the solution architect must understand the territory from which they com
 
 ### Align solution within business and IT strategy of the client
 
+\
+ ![Screenshot1](./media/coiled_spring.png)
+
+Uncoiling a spring.
 
 | Initial | word      | Business/IT |
 |---------|-----------|-------------|
@@ -58,7 +57,6 @@ The [tactics](#inputs_4) are the means by which which areas of our map of the te
 #### <a name="inputs_1">
 Background documentation: Model the existing actors that suport the objective; people, processes and technologies. From this we can begin to determine the [stakeholders](#inputs_3), actors ( process and technologies ). The goals of the objective. SMART: Specific, Measurable, Action-oriented, Realistic and Timely.
 
-*'Adzic, Gojko. Impact Mapping: Making a big impact with software products and projects . Provoking Thoughts.'* 
     
 #### <a name="inputs_2">
 Solution vision document: this is a fleshing out of the given strategy.
@@ -68,7 +66,29 @@ Stakeholder engagement
 
 #### <a name="inputs_4">
 Business requirements catalogue:
-User - Actor stories
+* User - Actor stories [ User stories ideally written with impact mapping   *'Adzic, Gojko. Impact Mapping: Making a big impact with software products and projects . Provoking Thoughts.'* 
+ ]
+
+    Who, What, How
+
+        As a catering manager ( who ) at a hotel 
+        I want a message ( what ) when the stock of potatoes held by the supplier a. falls below n. kilograms, 
+        so that I can request on demand internal stock check ( how ).
+
+    The 'How' is a business benefit of an on demand stock check which allows the hotel to manage own stock levels in a more responsive manner than the monthly stock check.
+
+    Features in Gherkin file 
+
+        Feature: Message customer when stock level change matches trigger condition 
+
+        Scenario: a trigger condition set by the customer
+            Given supplier is a.
+            And stock of potatoes 
+            When stock of potatoes changes
+            And falls
+            And below value n.
+            Then send message to customer
+
 
 #### <a name="inputs_5">
 Taxonomy
@@ -76,9 +96,9 @@ Taxonomy
 #### <a name="inputs_6">
 Risk register
 
-### Product Design
-
 ### Gap analysis
+
+### Product Design
 
 ## 2. What would you expect the key success criteria to be?
 
@@ -155,7 +175,7 @@ The providers SaaS model lowers the technolgy risk of the solution for the clien
 ..The client's B2B environment 
 
 
-### 6. Technology
+### Technology
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 
@@ -171,7 +191,7 @@ Host environment - client device (OS, browsers\[webOS]\), and platform/server ab
 * Maintainability
 
 
-## 7. What project phases would you propose?
+## 6. What project phases would you propose?
 
 For the solution architecture stream of the project: 
 * Initiation 
@@ -205,7 +225,7 @@ The phases of the two streams align somewhat as per the image below:
 \
  ![Screenshot2](./media/project_phases.png)
 
-## What technologies would you consider and how would you narrow down to final recommendations? What factors would you consider and who would you involve in this? 
+## 7. What technologies would you consider and how would you narrow down to final recommendations? What factors would you consider and who would you involve in this? 
 
 Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
 Who - primarily APL staff, client tech' staff (IT managers, Ops staff)
