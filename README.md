@@ -95,7 +95,7 @@ Business requirements catalogue:
     *  Interface to allow supplier to update stock levels
     *  Database table to contain the trigger definition
     *  Database table to contain the supplier stock levels
-    *  Event monitor to act upon the supplier update, match against a trigger definition and spawn an action
+    *  Event monitor to act upon the supplier update, match against a trigger definition and spawn an action ( messaging )
     *  Messaging engine
         * publish to app
         * email ( SendGrid )
@@ -151,7 +151,7 @@ Contraints to the solution.
 
     * Business policies - these should be rolled into the business requirements / user - actor stories, but may not be explict, and could even be counter to a business requirement for the solution, e.g.
             
-            Business policies: 'For staff work/life balance we have a rule of no emails after 6pm'. How does this apply to the messaging app, and how does this effect the usage and benefit of the app for the clients B2B partners?
+            Business policies: 'For staff work/life balance we have a rule of no emails after 6pm'. How does this apply to the messaging app, and how does this affect the usage and benefit of the app for the client's B2B partners?
     * Governance - Regulatory requirements
         * Data privacy, data residency
         * Other regulations pertaining to the market in which the B2B partners operate and may effect the content of the messaging
