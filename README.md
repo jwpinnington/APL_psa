@@ -89,6 +89,17 @@ Business requirements catalogue:
             And below value n.
             Then send message to customer
 
+    From this we generate an array technical requirements.
+    
+    *  Interface to enable customer to create the trigger
+    *  Interface to allow supplier to update stock levels
+    *  Database table to contain the trigger definition
+    *  Database table to contain the supplier stock levels
+    *  Event monitor to act upon the supplier update, match against a trigger definition and spawn an action
+    *  Messaging engine
+        * publish to app
+        * email ( SendGrid )
+        * SMS 
 
 #### <a name="inputs_5">
 Taxonomy
@@ -133,7 +144,7 @@ Contraints may exist on both the client and provider side of the solution projec
 Contraints to the solution.
 * Discovery stage - Input
     * Barriers to communication
-        * Nomenclature
+        * [Nomenclature](#inputs_5)
         * [Access to stakeholders](#inputs_3) - 
         are full range of stakeholders in the room, have the end users, those at the coal face who would be using the product, been invited? *If you are not in the room, you are not in the deal.* ~~Is the real client business sponsor in the room, or is it a proxy? Good to have an idea of which.~~
         * ~~Scope - Mission creep - an inverse constraint~~
@@ -231,6 +242,13 @@ The phases of the two streams align somewhat as per the image below:
 ## 7. What technologies would you consider and how would you narrow down to final recommendations? What factors would you consider and who would you involve in this? 
 
 
+Front End - progressive web app, service workers, IndexedDB - usage considerations, is a cold room a Faraday cage? Service workers for offline working.
 
-Host environment - client device (OS, browsers\[webOS]\), and platform/server ability to run solution codes base
-Who - primarily APL staff, client tech' staff (IT managers, Ops staff)
+.livestream
+\
+.aircommerce
+\
+Portonomy.3
+
+
+Who - primarily APL staff, client tech' staff (IT managers, Ops staff), and potentially tech' staff of client's main B2B partners.
