@@ -92,7 +92,12 @@ Business requirements catalogue:
     From this we generate an array technical requirements.
     
     *  Interface to enable customer to create the trigger
+        * client side UI 
     *  Interface to allow supplier to update stock levels
+        * is supplier agent a user or an actor?
+            * if user  - client side UI
+            * if actor - database connector?
+                * risk - split responsibilty 
     *  Database table to contain the trigger definition
     *  Database table to contain the supplier stock levels
     *  Event monitor to act upon the supplier update, match against a trigger definition and spawn an action ( messaging )
